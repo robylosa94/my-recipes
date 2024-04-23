@@ -1,0 +1,18 @@
+html {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+input[type="number"] {
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    display: none;
+  }
+}
+
+.container {
+  padding: 20px !important;
+
+  @media only screen and (min-width: 768px) {
+    padding: 40px !important;
+  }
+}
